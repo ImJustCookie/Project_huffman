@@ -35,6 +35,7 @@ le compteur à sa création
             return self.dico[element]
         return 0
 
+    @property
     def elements(self) -> set[TypeGeneral]:
         """ retourne les keys"""
         return set (self.dico.keys())
